@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+header, h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey; /* You can choose any color */
+  text-decoration: none; /* To remove the underline */
+  color: white; /* Change text color */
+}
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  margin: 0 auto; /* Centers the paragraph */
+  text-align: center; /* Centers the text */
+  padding: 20px 0; /* Adds vertical space between paragraphs */
+}
+#details div {
+  float: left;
+  width: 23%; /* Makes each div take up 1/4 of the container width */
+  margin-right: 2%; /* Adds space between divs */
+  text-align: center;
+}
+#bottom-row div {
+  background-color: red;/* Choose a background color */
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
